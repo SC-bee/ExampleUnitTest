@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args){
         Hero hero = new Hero("勇者", 10, 5);
         Enemy enemy = new Enemy("スライム", 6, 3);
-        LivingThing opponent = new LivingThing(hero.name,hero.hitPoint,hero.attack);
+        LivingThing opponent = new LivingThing(hero.getName(),hero.getHitPoint(),hero.getAttack());
         System.out.printf("%s vs. %s\n", hero.getName(), enemy.getName());
 
         int turn = 0;
