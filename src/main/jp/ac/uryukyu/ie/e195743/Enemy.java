@@ -53,7 +53,6 @@ public class Enemy {
         }
         System.out.printf("%sの攻撃！%sに%dのダメージを与えた！！\n", name, hero.getName(), damage);
         hero.wounded(damage);
-        System.out.println("aa");
     }
 
     /**
